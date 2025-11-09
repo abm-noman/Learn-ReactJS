@@ -1,14 +1,15 @@
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Main from './components/Main';
-
 function App() {
+
+const numbers = [1, 2, 3, 4, 5];
+
     return (
-        <div>
-            <Header />,
-            <Main />,
-            <Footer />
-        </div>
+        <main>
+            {numbers.map((number) => (
+                <ul key={number}>
+                    <li>{number}</li>
+                </ul>
+            ))}
+        </main>
     );
 }
 
