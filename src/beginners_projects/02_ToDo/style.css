@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #f5f9eb;
+  background: #61dfff;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  background: #fcfff3;
+  background: #9077ff;
   padding: 50px;
 }
 
