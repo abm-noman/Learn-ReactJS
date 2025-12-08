@@ -3,10 +3,6 @@ import ToggleBackgroundColor from "./beginners_projects/05_Toggle_BG_Color/Toggl
 const App = () => {
   return (
     <div>
-      {/* <Counter /> */}
-      {/* <ToDo /> */}
-      {/* <Meals /> */}
-      {/* <Calculator /> */}
       <ToggleBackgroundColor />
     </div>
   );
