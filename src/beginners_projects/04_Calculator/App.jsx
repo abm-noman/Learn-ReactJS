@@ -4,9 +4,6 @@ const App = () => {
 
     return (
         <div>
-            {/* <Counter /> */}
-            {/* <ToDo /> */}
-            {/* <Meals /> */}
             <Calculator />
         </div>
     );
