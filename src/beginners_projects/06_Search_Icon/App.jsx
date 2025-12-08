@@ -3,11 +3,6 @@ import HiddenSearchBar from "./beginners_projects/06_Search_Icon/HiddenSearchBar
 const App = () => {
   return (
     <div>
-      {/* <Counter /> */}
-      {/* <ToDo /> */}
-      {/* <Meals /> */}
-      {/* <Calculator /> */}
-      {/* <ToggleBackgroundColor /> */}
     <HiddenSearchBar />
     </div>
   );
