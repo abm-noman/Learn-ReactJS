@@ -9,6 +9,12 @@
 // import { accordionData } from "./beginners_projects/08_Accordions/utilities/content.js";
 // import Form from "./beginners_projects/09_Form_Validation/Form.jsx";
 
+//Ecommerce Project
+import Navigation from "../src/beginners_projects/10_E-Commerce/navigation/Navigation.jsx";
+import Products from "./beginners_projects/10_E-Commerce/products/Products.jsx";
+import Recommended from "./beginners_projects/10_E-Commerce/recommended/Recommended.jsx";
+import Sidebar from "./beginners_projects/10_E-Commerce/sidebar/Sidebar.jsx";
+
 const App = () => {
   return (
     <div>
@@ -28,7 +34,11 @@ const App = () => {
 
       {/* <Form /> */}
 
-      
+      {/* Ecommerce Project */}
+      <Sidebar />
+      <Navigation />
+      <Recommended />
+      <Products />
     </div>
   );
 };
