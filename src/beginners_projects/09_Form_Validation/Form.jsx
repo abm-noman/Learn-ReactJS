@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "../09_Form_Validation/style.css";
-const form = () => {
+
+const Form = () => {
   const [userName, setUserName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -19,35 +20,35 @@ const form = () => {
   const validate = (e) => {
     e.preventDefault();
     if (userName.length < 3) {
-        setErrorUserName("User Name must be at least 3 characters long");
-        setUserColor("red");
+      setErrorUserName("User Name must be at least 3 characters long");
+      setUserColor("red");
     } else {
-        setErrorUserName("");
-        setUserColor("green");
+      setErrorUserName("");
+      setUserColor("green");
     }
 
     if (!email.includes("@")) {
-        setErrorEmail("Please enter a valid email");
-        setEmailColor("red");
+      setErrorEmail("Please enter a valid email");
+      setEmailColor("red");
     } else {
-        setErrorEmail("");
-        setEmailColor("green");
+      setErrorEmail("");
+      setEmailColor("green");
     }
 
     if (password.length < 6) {
-        setErrorPassword("Password must be at least 6 characters long");
-        setPasswordColor("red");
+      setErrorPassword("Password must be at least 6 characters long");
+      setPasswordColor("red");
     } else {
-        setErrorPassword("");
-        setPasswordColor("green");
+      setErrorPassword("");
+      setPasswordColor("green");
     }
 
     if (confirmPassword !== password || confirmPassword === "") {
-        setErrorConfirmPassword("Passwords do not match");
-        setConfirmPasswordColor("red");
+      setErrorConfirmPassword("Passwords do not match");
+      setConfirmPasswordColor("red");
     } else {
-        setErrorConfirmPassword("");
-        setConfirmPasswordColor("green");
+      setErrorConfirmPassword("");
+      setConfirmPasswordColor("green");
     }
   };
 
@@ -104,4 +105,4 @@ const form = () => {
   );
 };
 
-export default form;
+export default Form;

@@ -7,7 +7,7 @@
 // import Testimonials from "./beginners_projects/07_Testimonials/Testimonials.jsx";
 // import Accordion from "./beginners_projects/08_Accordions/Accordion.jsx";
 // import { accordionData } from "./beginners_projects/08_Accordions/utilities/content.js";
-import Form from "./beginners_projects/09_Form_Validation/Form.jsx";
+// import Form from "./beginners_projects/09_Form_Validation/Form.jsx";
 
 const App = () => {
   return (
@@ -26,7 +26,7 @@ const App = () => {
         ))}
       </div> */}
 
-      <Form />
+      {/* <Form /> */}
 
       
     </div>
