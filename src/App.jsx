@@ -1,5 +1,5 @@
-import Testimonials from "./beginners_projects/07_Testimonials/Testimonials";
-
+import Accordion from "./beginners_projects/08_Accordions/Accordion.jsx";
+import { accordionData } from "./beginners_projects/08_Accordions/utilities/content.js";
 const App = () => {
   return (
     <div>
@@ -9,7 +9,13 @@ const App = () => {
       {/* <Calculator /> */}
       {/* <ToggleBackgroundColor /> */}
       {/* <HiddenSearchBar /> */}
-      <Testimonials />
+      {/* <Testimonials /> */}
+
+      <div className="accordion">
+        {accordionData.map(({ title, content }) => (
+          <Accordion title={title} content={content} />
+        ))}
+      </div>
     </div>
   );
 };
