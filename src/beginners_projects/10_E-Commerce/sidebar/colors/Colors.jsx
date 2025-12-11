@@ -1,11 +1,17 @@
+import Input from "../../components/Input";
 import "./Colors.css";
 
 const Colors = () => {
   return (
     <div>
-      Colors
-    </div>
-  )
-}
+      <h2 className="sidebar-title price-title">Color</h2>
 
-export default Colors
+      <Input />
+      <Input />
+      <Input />
+      <Input />
+    </div>
+  );
+};
+
+export default Colors;
